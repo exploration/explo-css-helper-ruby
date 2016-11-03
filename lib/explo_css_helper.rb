@@ -24,7 +24,8 @@ module ExploCssHelper
     "lead" => "measure lh-copy f4",
     "legend" => "tc fw7",
     "link" => "link x-orange x-hover-darkorange pointer",
-    "p" => "measure lh-copy f5 fw5",
+    "p" => "measure-wide lh-copy f5 fw5",
+    "p-s" => "measure-wide lh-copy f6 fw4",
     "select" => "input-reset w-100 pa2 ba br1 x-b--coolgray x-focus-b-orange x-on lh-copy pointer",
     "select-narrow" => "input-reset w-100 w5-ns pa2 ba br1 x-b--coolgray x-focus-b-orange x-on lh-copy pointer",
     "textarea" => "input-reset w-100 h4 pa2 ba br1 x-b--coolgray x-focus-b-orange x-on lh-copy"
