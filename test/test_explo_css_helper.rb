@@ -6,7 +6,7 @@ class ExploCssHelperTest < Minitest::Test
 
   def test_xc_exists
     assert_equal(
-      'measure lh-copy f5 fw5',
+      'measure-wide lh-copy f5 fw5',
       xc('p')
     )
   end
@@ -20,21 +20,21 @@ class ExploCssHelperTest < Minitest::Test
 
   def test_xc_replaces_values
     assert_equal(
-      'measure lh-copy f5 CHEESE',
+      'measure-wide lh-copy f5 CHEESE',
       xc('p', replace: {'fw5' => 'CHEESE'})
     )
   end
 
   def test_xc_adds_values
     assert_equal(
-      'measure lh-copy f5 fw5 NACHOS',
+      'measure-wide lh-copy f5 fw5 NACHOS',
       xc('p', add: ['NACHOS'])
     )
   end
 
   def test_xc_can_add_and_replace_simultaneously
     assert_equal(
-      'measure lh-copy f5 CHEESE NACHOS',
+      'measure-wide lh-copy f5 CHEESE NACHOS',
       xc('p', replace: {'fw5' => 'CHEESE'}, add: ['NACHOS'])
     )
   end
