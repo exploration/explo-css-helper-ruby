@@ -21,7 +21,7 @@ module ExploCssHelper
     "input-text" => "input-reset w-100 pa2 ba br1 x-b--coolgray x-focus-b-orange x-on lh-copy",
     "input-text-narrow" => "input-reset db w-100 w5-ns pa2 ba br1 x-b--coolgray x-focus-b-orange x-on lh-copy",
     "label" => "db mb1 f6 x-coolgray",
-    "lead" => "measure lh-copy f4",
+    "lead" => "measure-wide lh-copy f5 fw7",
     "legend" => "tc fw7",
     "link" => "link x-orange x-hover-darkorange pointer",
     "p" => "measure-wide lh-copy f5 fw5",
