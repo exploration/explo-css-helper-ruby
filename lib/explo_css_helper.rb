@@ -7,6 +7,7 @@ module ExploCssHelper
     "btn-l-gray" => "dib pv2 ph5 ph6-ns ba br1 x-b--coolgray bg-white x-hover-bg-palegray lh-copy tc f5 x-gray pointer",
     "btn-s" => "dib pv1 ph4 ba bw0 br1 x-bg-orange x-hover-bg-darkorange lh-copy tc f6 white pointer",
     "btn-s-gray" => "dib pv1 ph4 ba br1 x-b--coolgray bg-white x-hover-bg-palegray lh-copy tc f6 x-gray pointer",
+    "body" => "w-100 avenir f5 fw5 x-gray",
     "fieldset" => "mt3 pv3 ph0 bn",
     "flash-alert" => "pa3 ba bw0 br1 x-bg-palered x-red",
     "flash-notice" => "pa3 ba bw0 br1 x-bg-palegreen x-green",
