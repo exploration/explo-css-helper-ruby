@@ -86,3 +86,7 @@ Inside of your main Sinatra CSS class:
     end
 
 
+
+# Development
+
+If you want to edit this gem, you'll need to fetch the latest styles to your locally-cloned copy of the repo by running `rake fetch_styles`. This will download the latest style information from our [centralized list of css styles and classes](https://bitbucket.org/snippets/explo/EM6eA). `rake build` will always pre-run `rake fetch_latest` just to be on the safe side.
