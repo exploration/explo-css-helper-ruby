@@ -1,3 +1,3 @@
-[submodule "explo-css-styles-classes"]
-	path = explo-css-styles-classes
-	url = https://dmerand@bitbucket.org/snippets/explo/EM6eA/explo-css-styles-classes.git
+[submodule "lib/explo-css-styles-classes"]
+	path = lib/explo-css-styles-classes
+	url = git@bitbucket.org:snippets/explo/EM6eA/explo-css-styles-classes.git
