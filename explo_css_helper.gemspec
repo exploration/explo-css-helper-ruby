@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
   s.email       = 'donald@explo.org'
   s.files       = Dir["lib/explo_css_helper.rb", "lib/explo-css-styles-classes/explo_styles.json", "README.markdown"]
   s.homepage    = 'https://bitbucket.org/explo/explo-css-helper'
-  s.license       = 'MIT'
+  s.license     = 'MIT'
 end
