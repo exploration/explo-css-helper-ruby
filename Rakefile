@@ -1,7 +1,8 @@
 require 'rake/testtask'
 
 desc "Build gem" 
-task :build do
+task :build => :fetch_styles do
+  puts "\nBuilding gem now..."
   sh "gem build explo_css_helper.gemspec"
 end
 
@@ -12,3 +13,8 @@ end
 desc "Run all tests"
 task :default => :test
 
+desc "Fetch the latest EXPLO styles from the central style repo"
+task :fetch_styles do
+  puts "Fetching latest styles..."
+  sh "git submodule foreach git pull origin master"
+end
