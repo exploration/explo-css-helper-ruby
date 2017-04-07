@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'explo_css_helper'
-  s.version     = '0.4.3'
+  s.version     = '0.4.4'
   s.date        = '2017-04-06'
   s.summary     = "Helper methods for Explo's functional CSS classes"
   s.description = "If you use Tachyons + work for Explo, you'll want these functional CSS classes to help you get the right fonts, colors, and components."

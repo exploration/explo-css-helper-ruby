@@ -33,9 +33,9 @@ For a complete list of all available class tags and select values, it's best to 
 
 In general, you'll want to add the following line to your `Gemfile`:
 
-    gem 'explo_css_helper', git: 'git@bitbucket.org:explo/explo-css-helper.git'
+    gem 'explo_css_helper', git: 'git@bitbucket.org:explo/explo-css-helper.git', submodules: true
 
-(If your computer doesn't have read access to that URL, you'll need add your SSH key to this repo).
+(If your computer doesn't have read access to that URL, you'll need add your SSH key to this repo). The `submodules: true` is super-important: without that, you will get many errors!
 
 You also definitely want to have the [Tachyons](https://tachyons.io) CSS files available in your HTML, otherwise none of the CSS helper styles will work correctly.
 
