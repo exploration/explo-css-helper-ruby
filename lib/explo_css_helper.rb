@@ -2,7 +2,7 @@ require 'json'
 
 # Helper methods for doing functional CSS in the Explo style
 module ExploCssHelper
-  styles_path = File.join( File.dirname(__FILE__), '../explo-css-styles-classes/explo_styles.json' )
+  styles_path = 'explo-css-styles-classes/explo_styles.json'
   GESTALT = JSON.parse(File.read(styles_path))
   CSS_CLASSES = GESTALT['classes']
   HTML_STYLES = GESTALT['styles']
