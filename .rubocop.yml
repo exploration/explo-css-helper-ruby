@@ -1,0 +1,6 @@
+AllCops:
+  TargetRubyVersion: 2.4
+
+Metrics/LineLength:
+  Exclude:
+    - 'test/test_explo_css_helper.rb'
