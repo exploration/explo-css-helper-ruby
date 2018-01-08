@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'explo_css_helper'
-  s.version     = '0.5.1'
+  s.version     = '0.5.2'
   s.date        = '2018-01-05'
   s.summary     = "Helper methods for Explo's functional CSS classes"
   s.description = <<~DESC
